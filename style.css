@@ -1,0 +1,588 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+@font-face {
+    font-family: "Changa One";
+    src: url(fonts/ChangaOne.ttf);
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto.ttf);
+}
+
+body {
+    background-color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: auto;
+    height: 90px;
+    margin-right: 119px;
+}   
+
+.logo {
+    margin: 199px;
+    width: 100px;
+    height: 64px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.logo-text-bold {
+    font-size: 36px;
+    font-weight: bold;
+    color: #8A53FF;
+    font-family: 'Cursive', Changa One;
+    width: 95.93px;
+    height: 23.12px;
+    top: 35.27px;
+    left: 3.46px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.icons {
+    display: flex;
+    gap: 18px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 32.29px;
+    margin-left: auto;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-family: Roboto;
+}
+
+.nav-links li a.active {
+    color: #8A53FF;
+}
+
+.hero-section {
+    position: relative;
+    font-family: Changa One;
+    background-image: url('pictures/photos/hero background image.png');
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 580px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.hero-content {
+    display: flex;
+    width: 600px;
+    height: 580px;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 140px;
+    margin-right: 120px;
+    margin-top: 124px;
+    margin-bottom: 204px;
+}
+
+.hero-section h1 {
+    font-size: 73px;
+    margin-bottom: 20px;
+    color: #434343;
+}
+
+.hero-section h1 span {
+    color: #8A53FF;
+}
+
+.hero-section p {
+    font-family: Roboto;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.cta-buttons {
+    font-family: Roboto;
+    display: flex;
+    gap: 20px;
+    justify-content: left;  
+    margin-top: 34px;
+}
+
+.primary-btn {
+    background-color: #8A53FF;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 170px;
+    height: 48px;
+}
+
+.secondary-btn {
+    background-color: transparent;
+    color: #434343;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+}
+
+.play-icon {
+    margin-right: 10px;
+}
+
+.featured-destination {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: white;
+    margin-top: 107px;
+    margin-left: 140px;
+    margin-bottom: 107px;
+}   
+
+.destination-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 24px;
+    width: 580px;
+    height: 292px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+}
+
+.swiss-alps-img {
+    width: auto;
+    height: auto;
+}
+
+.destination-info h2 {
+    font-family: Roboto;
+    color: #8A53FF;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.destination-info h3 {
+    font-family: Changa One;
+    color: #434343;
+    font-size: 39px;
+    margin-bottom: 8px;
+}
+
+.destination-info p {
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+.destination-btn {
+    background-color: transparent;
+    color: #8A53FF;
+    border: 2px solid transparent;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    width: 156px;
+    height: 36px;
+}
+
+.play-icon-2 {
+    width: 36px;
+    height: 36px;
+    margin: 12px;
+}
+
+.discover-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    text-align: center;
+}
+
+.discover-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.discover-section h1 {
+    font-family: Roboto;
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #8A53FF;
+}
+
+.discover-section h2 {
+    font-family: Changa One;
+    font-size: 39px;
+    margin-bottom: 40px;
+    color: #434343;
+}
+
+.destinations {
+    display: flex;
+    justify-content: space-between;
+    width: 1202px;
+    height: 410px;
+}
+
+.destinations-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 601px;
+    height: 410px;
+    margin-left: 300px;
+    margin-right: auto;
+}
+
+.destinations-1 img {
+    width: 268.5px;
+    height: 317.05px;
+    margin-left: 16px;
+    margin-top: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+.destination-text {
+    display: flex;
+    width: 268.5px;
+    height: 50.95px;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+.destination-text p {
+    font-family: Changa One;
+    font-size: 24px;
+    font-weight: bold;
+    color: #434343;
+}
+
+.destination-text span {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #8A53FF;
+}
+
+.travel-section {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 901.18px;
+    background-image: url('pictures/photos/Share your travels section background image.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.travel-form {
+    width: 657px;
+    height: 758px;
+}
+
+.travel-header {
+    width: 617px;
+    height: 76px;
+}
+
+.travel-header h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-family: Roboto;
+    color: #8A53FF;
+    margin-bottom: 15px;
+}
+
+.travel-header h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 39px;
+    font-family: Changa One;
+    color: #343434;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 617px;
+    height: 612px;
+    background-color: white; 
+    display: flex;
+    margin-top: 30px;
+    border: none;
+    border-radius: 12px;
+}
+
+.form-text {   
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 28px;
+    margin-bottom: 17px;
+    width: 557px;
+    height: 110px;
+    
+}
+
+.form-text h1 {
+    font-size: 24px;
+    font-family: Changa One;
+    color: #343434;
+    margin-bottom: 20px;
+}
+
+.form-text h2 {
+    font-size: 18px;
+    font-family: Roboto;
+    color: #576074;
+}
+
+
+.form-fields {
+    display: flex;
+    flex-direction: column;
+    width: 557px;
+    height: 366px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.field {
+    width: 557px;
+    height: 56px;
+    margin-bottom: 10px;
+}
+
+.field-textarea {
+    height: 102px;
+}
+
+.form-fields input,
+.form-fields select,
+.form-fields textarea {
+    padding: 12px;
+}
+
+.form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #8A53FF;
+    margin-left: 30px;
+    margin-top: 17px;
+    width: 222px;
+    height: 46px;
+    border: none;
+    border-radius: 5px;
+}
+
+.stories-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    height: 748.11px;
+}
+
+.stories-titles {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 1200px;
+    height: 76px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 83px;
+}
+
+.stories-titles h1 {
+    font-size: 18px;
+    font-family: Roboto;
+    color: #8A53FF;
+}
+
+.stories-titles h2 {
+    font-size: 39px;
+    font-family: Changa One;
+    color: #343434;
+    margin-top: 15px;
+}
+
+.story-block {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    height: 476px;
+    margin-top: 30px;
+}
+
+.stories-left {
+    width: 600px;
+    height: 476.11px;
+}
+
+.story-big-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 560px;
+    height: 476.11px;
+}
+
+.story-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 560px;
+    height: 118px;
+    margin-top: 0px;
+}
+
+.story-body button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48.87px;
+    height: 48px;
+    margin-left: 28px;
+    background-color: transparent;
+    border: 2px solid transparent;
+}
+
+.story-text-left {  
+    width: 435.13px;
+    height: 90px;
+    margin-top: 14px;   
+    margin-bottom: 14px;
+}
+
+.story-text-left h1 {
+    font-size: 24px;
+    font-family: Changa One;
+    color: #343434;
+}
+
+.story-text-left h2 {
+    font-size: 16px;
+    font-family: Roboto;
+    color:#576074;
+}
+
+.stories-rigth {
+    display: flex;
+    width: 600px;
+    height: 476px;
+}
+
+.stories-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 600px;
+    height: 476px;
+}
+
+.story-card {
+    display: flex;
+    width: 600px;
+    height: 148px;
+    background: #F9F9F9;
+}
+
+.story-card img {
+    width: 200px;
+    height: 128px;
+    margin-left: 11px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.story-text-right {
+    width: 358px;
+    height: 128px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.story-text-right h1 {
+    font-size: 24px;
+    font-family: Changa One;
+    color: #343434;
+    margin-bottom: 20px;
+}
+
+.story-text-right h2 {
+    font-size: 16px;
+    font-family: Roboto;
+    color: #576074;
+}
+
+.story-text-right span {
+    color: #8A53FF;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 80px;
+}
+
+.copyright {
+    margin-left: 120px;
+    width: 920px;
+    height: 16px;
+}
+
+.footer-links {
+    width: 500pxpx;
+    height: 16px;
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    margin-left: 165px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color:black;
+}
