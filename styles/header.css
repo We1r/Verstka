@@ -1,0 +1,64 @@
+.header {
+    position: relative;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: auto;
+    height: 90px;
+    margin-right: 119px;
+}   
+
+.logo {
+    margin: 199px;
+    width: 100px;
+    height: 64px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.logo-text-thin {
+    font-size: 22px;
+    font-family: Personal Use Only;
+}
+
+.logo-text-bold {
+    font-size: 36px;
+    font-weight: bold;
+    color: #8A53FF;
+    font-family: 'Cursive', Changa One;
+    width: 95.93px;
+    height: 23.12px;
+    top: 35.27px;
+    left: 3.46px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.icons {
+    display: flex;
+    gap: 18px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 32.29px;
+    margin-left: auto;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-family: Roboto;
+}
+
+.nav-links li a.active {
+    color: #8A53FF;
+}

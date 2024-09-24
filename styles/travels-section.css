@@ -1,0 +1,115 @@
+.travel-section {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 901.18px;
+    background-image: url('/images/photos/Share\ your\ travels\ section\ background\ image.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.travel-form {
+    width: 657px;
+    height: 758px;
+}
+
+.travel-header {
+    width: 617px;
+    height: 76px;
+}
+
+.travel-header h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-family: Roboto;
+    color: #8A53FF;
+    margin-bottom: 15px;
+}
+
+.travel-header h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 39px;
+    font-family: Changa One;
+    color: #343434;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 617px;
+    height: 612px;
+    background-color: white; 
+    display: flex;
+    margin-top: 30px;
+    border: none;
+    border-radius: 12px;
+}
+
+.form-text {   
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 28px;
+    margin-bottom: 17px;
+    width: 557px;
+    height: 110px;
+    
+}
+
+.form-text h1 {
+    font-size: 24px;
+    font-family: Changa One;
+    color: #343434;
+    margin-bottom: 20px;
+}
+
+.form-text h2 {
+    font-size: 18px;
+    font-family: Roboto;
+    color: #576074;
+}
+
+
+.form-fields {
+    display: flex;
+    flex-direction: column;
+    width: 557px;
+    height: 366px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.field {
+    width: 557px;
+    height: 56px;
+    margin-bottom: 10px;
+}
+
+.field-textarea {
+    height: 102px;
+}
+
+.form-fields input,
+.form-fields select,
+.form-fields textarea {
+    padding: 12px;
+}
+
+.form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #8A53FF;
+    margin-left: 30px;
+    margin-top: 17px;
+    width: 222px;
+    height: 46px;
+    border: none;
+    border-radius: 5px;
+}

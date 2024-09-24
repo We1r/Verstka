@@ -1,0 +1,148 @@
+.stories-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    height: 748.11px;
+}
+
+.stories-titles {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 1200px;
+    height: 76px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 83px;
+}
+
+.stories-titles h1 {
+    font-size: 18px;
+    font-family: Roboto;
+    color: #8A53FF;
+}
+
+.stories-titles h2 {
+    font-size: 39px;
+    font-family: Changa One;
+    color: #343434;
+    margin-top: 15px;
+}
+
+.story-block {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    height: 476px;
+    margin-top: 30px;
+}
+
+.stories-left {
+    width: 600px;
+    height: 476.11px;
+}
+
+.story-big-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 560px;
+    height: 476.11px;
+}
+
+.story-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 560px;
+    height: 118px;
+    margin-top: 0px;
+}
+
+.story-body button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48.87px;
+    height: 48px;
+    margin-left: 28px;
+    background-color: transparent;
+    border: 2px solid transparent;
+}
+
+.story-text-left {  
+    width: 435.13px;
+    height: 90px;
+    margin-top: 14px;   
+    margin-bottom: 14px;
+}
+
+.story-text-left h1 {
+    font-size: 24px;
+    font-family: Changa One;
+    color: #343434;
+}
+
+.story-text-left h2 {
+    font-size: 16px;
+    font-family: Roboto;
+    color:#576074;
+}
+
+.stories-rigth {
+    display: flex;
+    width: 600px;
+    height: 476px;
+}
+
+.stories-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 600px;
+    height: 476px;
+}
+
+.story-card {
+    display: flex;
+    width: 600px;
+    height: 148px;
+    background: #F9F9F9;
+}
+
+.story-card img {
+    width: 200px;
+    height: 128px;
+    margin-left: 11px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.story-text-right {
+    width: 358px;
+    height: 128px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.story-text-right h1 {
+    font-size: 24px;
+    font-family: Changa One;
+    color: #343434;
+    margin-bottom: 20px;
+}
+
+.story-text-right h2 {
+    font-size: 16px;
+    font-family: Roboto;
+    color: #576074;
+}
+
+.story-text-right span {
+    color: #8A53FF;
+}

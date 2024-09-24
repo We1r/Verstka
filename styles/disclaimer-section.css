@@ -1,0 +1,267 @@
+.blog-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 2334.55px;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    width: 911.64px;
+    height: 635px;
+    margin-left: 258px;
+    margin-right: 258px;
+    margin-top: 46px;
+}
+
+.hero-header {
+    display: flex;
+    width: 911.64px;
+    height: 75px;
+}
+
+.article-title {
+    display: flex;
+    flex-direction: column; 
+    width: 721px;
+    height: 75;
+}
+
+.article-title h1 {
+    font-size: 18px;
+    font-family: Roboto;
+    color: #8A53FF;
+}
+
+.article-title h2 {
+    font-size: 54px;
+    font-family: Changa One;
+    color: #323232;
+}
+
+.article-author {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190.47px;
+    height: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.author-icon {
+    display: flex;
+    width: 36px;
+    height: 36px;
+}
+
+.author-text {
+    display: flex;
+    flex-direction: column;
+    width: 145.47px;
+    height: 35px;
+    margin-left: 10px;
+}
+
+.up-text {
+    font-size: 16px;
+    font-family: Roboto;
+    color: #495367;
+}
+
+.down-text {
+    font-size: 14px;
+    font-family: Roboto;
+    color: #A2A7B1;
+}
+
+.hero-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/photos/Featured\ Image\ Container.png);
+    background-size: cover;
+    width: 980px;
+    height: 540px;
+    margin-top: 20px;
+}
+
+.hero-video img {
+    position: absolute;
+    width: 104.67px;
+    height: 105.63px;
+}
+
+.Matterhorn {
+    font-size: 70px;
+    font-family: Personal Use Only;
+    color:white;
+    margin-bottom: 64.26px;
+}
+
+.clincher-pagagraph {
+    width: 911.64px;
+    height: 124px;
+    margin-left: 258px;
+    margin-right: 258px;
+    margin-top: 35px;
+}
+
+.clincher-pagagraph h1 {
+    font-size: 32px;
+    font-family: Changa One;
+    color: #343434;
+    margin-bottom: 10px;
+}
+
+.clincher-pagagraph h2 {
+    font-size: 16px;
+    font-family: Roboto;
+    color: #434343;
+}
+
+.callout-section {
+    display: flex;
+    width: 911.64px;
+    height: 527px;
+    margin-left: 258px;
+    margin-right: 258px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.callout-images {
+    display: flex;
+    width: 455.82px;
+    height: 481px;
+}
+
+.callout-images-column {
+    width: 220.41px;
+    height: 479.03px;
+    margin-left: 15px;
+}
+
+.switzerland-sunset {
+    margin-top: 16px;
+}
+
+.callout-copywriting {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 455.82px;
+    height: 527px;
+}
+
+.callout-copywriting h1 {
+    font-size: 16px;
+    font-family: Roboto;
+    color: #434343;
+    margin-left: 34px;
+}
+
+.callout-copywriting h2 {
+    font-size: 16px;
+    font-family: Roboto;
+    color: #434343;
+    margin-left: 34px;
+}
+
+.callout-copywriting button {
+    width: 165.17px;
+    height: 46px;
+    background-color: #8A53FF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Roboto;
+    margin-right: 256.65px;
+    margin-left: 34px;
+}
+
+.callout-title {
+    display: flex;
+    flex-direction: row;
+    width: 421.82px;
+    height: 141px;
+    margin-top: 36px;
+    margin-left: 34px;
+}
+
+.callout-title img {
+    width: 34.62px;
+    height: 26px;
+    margin-right: 17px;
+}
+
+.callout-title h1 {
+    font-size: 42px;
+    font-family: Changa One;
+    color: #343434;
+}
+
+.conclusion-text {
+    display: flex;
+    align-items: flex-start;
+    width: 911.64px;
+    height: 130px;
+    margin-left: 258px;
+    margin-right: 258px;
+    font-size: 16px;
+}
+
+.highlights-section {
+    width: 911.64px;
+    height: 431.55px;
+    margin-left: 258px;
+    margin-right: 258px;
+    margin-top: 35px;
+}
+
+.highlights-section h1 {
+    font-size: 32px;
+    font-family: Changa One;
+    color:#323232
+}
+
+.highlights-row {
+    display: flex;
+    width: 911.64px;
+    height: 380.55px;
+    margin-top: 15px;;
+}
+
+.highlight-card {
+    width: 303.88px;
+    height: 380.55px;
+}
+
+.highlight-card p {
+    font-size: 14px;
+    font-family: Roboto;
+    color: #828181;
+}
+
+.disclaimer-section {
+    display: flex;
+    flex-direction: column;
+    width: 911.64px;
+    height: 220px;
+    margin-left: 258px;
+    margin-right: 258px;
+    margin-top: 35px;
+    background: #FAFAFA;
+}
+
+.disclaimer-section p {
+    display: flex;
+    font-size: 16px;
+    font-family: Roboto;
+    line-height: 35px;
+}

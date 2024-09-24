@@ -1,0 +1,76 @@
+.discover-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    text-align: center;
+}
+
+.discover-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.discover-section h1 {
+    font-family: Roboto;
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #8A53FF;
+}
+
+.discover-section h2 {
+    font-family: Changa One;
+    font-size: 39px;
+    margin-bottom: 40px;
+    color: #434343;
+}
+
+.destinations {
+    display: flex;
+    justify-content: space-between;
+    width: 1202px;
+    height: 410px;
+}
+
+.destinations-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 601px;
+    height: 410px;
+    margin-left: 300px;
+    margin-right: auto;
+}
+
+.destinations-1 img {
+    width: 268.5px;
+    height: 317.05px;
+    margin-left: 16px;
+    margin-top: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+.destination-text {
+    display: flex;
+    width: 268.5px;
+    height: 50.95px;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+.destination-text p {
+    font-family: Changa One;
+    font-size: 24px;
+    font-weight: bold;
+    color: #434343;
+}
+
+.destination-text span {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #8A53FF;
+}
