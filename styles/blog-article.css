@@ -80,7 +80,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/images/photos/Featured\ Image\ Container.png);
+    background-image: url(../images/photos/Featured\ Image\ Container.png);
     background-size: cover;
     width: 980px;
     height: 540px;

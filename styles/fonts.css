@@ -1,14 +1,14 @@
 @font-face {
     font-family: "Changa One";
-    src: url(/fonts/ChangaOne.ttf);
+    src: url(../fonts/ChangaOne.ttf);
 }
 
 @font-face {
     font-family: "Roboto";
-    src: url(/fonts/Roboto.ttf);
+    src: url(../fonts/Roboto.ttf);
 }
 
 @font-face {
     font-family: "Personal Use Only";
-    src: url(/fonts/PersonalUseOnly.otf);
+    src: url(../fonts/PersonalUseOnly.otf);
 }
