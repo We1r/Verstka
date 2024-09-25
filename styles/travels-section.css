@@ -24,7 +24,6 @@
     display: flex;
     justify-content: center;
     font-size: 18px;
-    font-family: Roboto;
     color: #8A53FF;
     margin-bottom: 15px;
 }
@@ -70,7 +69,6 @@
 
 .form-text h2 {
     font-size: 18px;
-    font-family: Roboto;
     color: #576074;
 }
 
@@ -112,4 +110,5 @@
     height: 46px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }

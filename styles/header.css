@@ -56,7 +56,6 @@
 .nav-links li a {
     text-decoration: none;
     color: black;
-    font-family: Roboto;
 }
 
 .nav-links li a.active {
